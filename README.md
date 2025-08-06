@@ -82,11 +82,13 @@ Clone the repository:
 Bash
 
 _git clone https://github.com/your-username/housie-hub.git_
+
 Navigate to the project directory and install dependencies:
 
 Bash
 
 _cd housie-hub
+
 npm install_
 
 Start the development server:
@@ -94,4 +96,5 @@ Start the development server:
 Bash
 
 _npm start_
+
 The application will be available at http://localhost:3000
