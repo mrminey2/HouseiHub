@@ -1,6 +1,6 @@
 **Housie Hub - A Modern Tambola Experience**
 
-Housie Hub is a feature-rich, modern reimagining of the classic game of Tambola (or Housie). It was built to provide a premium, competitive, and highly interactive social gaming experience, blending classic gameplay with advanced web technologies and a polished, professional design inspired by Ko-fi.com.
+Housie Hub is a feature-rich, modern reimagining of the classic game of Tambola (or Housie). It was built to provide a premium, competitive, and highly interactive social gaming experience, blending classic gameplay with advanced web technologies and a polished, professional design.
 
 Live Demo: https://bbc741df-8ab4-46ad-b584-1fe8bac17a1e-00-1b05esa6fiewa.worf.replit.dev/
 Video Demo: https://drive.google.com/file/d/13j7gCs0gNWONOOFHVEeS9gIqhYW1x_lD/view?usp=sharing
@@ -27,9 +27,9 @@ Bulk Number Drawing: In Classic and Tournament modes, players can choose to draw
 Win Detection & Celebration: The system automatically detects when a ticket has achieved a "full house" and triggers a celebratory popup announcing the winning ticket and the prize amount.
 
 **3. Polished UI & Fluid Animations**
-Professional Design System: The entire application uses a consistent design language inspired by Ko-fi.com, featuring their authentic color palette and "Helvetica Now Display" typography from Monotype for a clean, premium feel.
+Professional Design System: The entire application uses a consistent design language, featuring authentic color palette and clean typography.
 
-Initial Splash & Entrance Animations: The app greets users with a full-screen splash animation featuring an expanding gold circle, followed by a cascading "flip-in" entrance for the game columns, inspired by FlipAClip.
+Initial Splash & Entrance Animations: The app greets users with a full-screen splash animation featuring an expanding gold circle, followed by a cascading "flip-in" entrance for the game columns.
 
 "Money Shot" Auto-Daubing: The standout animation where a called number on a ticket is marked with a beautiful gold ripple effect that smoothly fills the cell.
 
