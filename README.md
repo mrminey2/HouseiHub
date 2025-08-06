@@ -1,44 +1,97 @@
-Housie Hub - A Modern Tambola Experience
-(Feel free to replace this placeholder image with a high-quality screenshot of your app!)
+**Housie Hub - A Modern Tambola Experience**
 
-Housie Hub is a reimagining of the classic game of Tambola (or Housie), built with a focus on a clean, modern user interface and a delightful user experience. This project was developed as an entry for the Vibe Coding Challenge, aiming to combine classic gameplay with modern web technologies.
+Housie Hub is a feature-rich, modern reimagining of the classic game of Tambola (or Housie). It was built to provide a premium, competitive, and highly interactive social gaming experience, blending classic gameplay with advanced web technologies and a polished, professional design inspired by Ko-fi.com.
 
 Live Demo: https://bbc741df-8ab4-46ad-b584-1fe8bac17a1e-00-1b05esa6fiewa.worf.replit.dev/
 Video Demo: https://drive.google.com/file/d/13j7gCs0gNWONOOFHVEeS9gIqhYW1x_lD/view?usp=sharing
 
-Core Features
-This project was built to not only meet but exceed the competition's requirements, focusing on a premium, interactive feel.
+✨ _**Core Features**_
+Housie Hub is more than just a game; it's a complete gaming platform with distinct modes, interactive elements, and social features.
 
-Gameplay & Logic
-Dynamic Ticket Generation: Generates valid 9x3 Tambola tickets with the correct number distribution (5 numbers per row, following column rules 1-10, 11-20, etc.).
+**1. Three Distinct Game Modes**
+The platform offers three unique ways to play, each with its own mechanics and prize structure:
 
-Random Number Picker: Draws unique numbers from 1 to 90 without repetition, ensuring a fair game every time.
+Classic Mode ($100 Prize): The traditional experience with manual number calling and automatic ticket daubing.
 
-Interactive Number Board: A clear and intuitive 1-90 grid that visually tracks all numbers that have been called, making it easy to check your tickets.
+Speed Mode ($200 Prize): A fast-paced mode featuring automatic number calling at set intervals, requiring players to manually mark their tickets.
 
-UI & UX
-Modern & Polished Design: A clean, card-based layout inspired by modern web aesthetics, using a professional color palette and typography for excellent readability.
+Tournament Mode (Custom Prize Pool): A competitive mode where hosts can set the prize pool, time limit, and number of players (2-50) via a setup popup. This mode features manual calling and manual ticket marking.
 
-Fluid Animations: The interface is packed with subtle but satisfying animations to enhance the user experience:
+**2. Advanced Gameplay Mechanics**
+Dynamic & Unique Ticket Generation: Every game generates random 9x3 Tambola tickets with a guarantee of no duplicate numbers within a single ticket.
 
-3D Ticket Hover: Tickets lift and tilt with a smooth 3D transform on mouseover.
+Ticket Management: Players can add new tickets during a game and remove unwanted tickets in any mode. Tournament mode includes smart player limits, preventing more tickets than players and providing a clear notification.
 
-Auto-Daubing Animation: When a drawn number is present on your ticket, it's automatically marked with a delightful and smooth golden highlight animation.
+Bulk Number Drawing: In Classic and Tournament modes, players can choose to draw multiple numbers (1-10) at once, which are then displayed sequentially with smooth animations.
 
-Button Micro-interactions: Buttons provide tactile feedback on hover and click.
+Win Detection & Celebration: The system automatically detects when a ticket has achieved a "full house" and triggers a celebratory popup announcing the winning ticket and the prize amount.
 
-Text-to-Speech Number Announcer: To make the game more immersive and accessible, the application uses the browser's Web Speech API to announce each drawn number out loud.
+**3. Polished UI & Fluid Animations**
+Professional Design System: The entire application uses a consistent design language inspired by Ko-fi.com, featuring their authentic color palette and "Helvetica Now Display" typography from Monotype for a clean, premium feel.
 
-Fully Responsive: The layout seamlessly adapts to all screen sizes, providing a great experience on both desktop and mobile devices.
+Initial Splash & Entrance Animations: The app greets users with a full-screen splash animation featuring an expanding gold circle, followed by a cascading "flip-in" entrance for the game columns, inspired by FlipAClip.
 
-🛠️ Technologies Used
-This project was built from the ground up using foundational web technologies.
+"Money Shot" Auto-Daubing: The standout animation where a called number on a ticket is marked with a beautiful gold ripple effect that smoothly fills the cell.
 
-HTML5: For the core structure and content.
+Interactive Micro-interactions: Every element is designed to be interactive:
 
-CSS3: For all styling, layout (Flexbox/Grid), and animations (Transitions, Transforms).
+3D Hover Effects: Tickets lift and tilt on hover.
 
-JavaScript (ES6+): For all the game logic, DOM manipulation, and interactivity.
+Button Feedback: Buttons provide satisfying press-down and lift effects.
 
-Web Speech API: For the text-to-speech functionality, built directly into modern browsers.
+Animated Background: A continuous, subtle ripple effect inspired by 14islands.com provides a dynamic atmosphere.
 
+Voice Announcements: An immersive feature that announces each drawn number out loud. This can be toggled on or off by the player in all game modes.
+
+**4. Social & Engagement Features**
+Live Game Chat: All game modes include a real-time chat box where players can communicate. The chat supports timestamps, distinct usernames for each mode, and system announcements. The chat box is minimizable for an unobstructed view.
+
+Points System: Players are rewarded with points for in-game actions to encourage engagement:
+
+Drawing numbers (5-10 points depending on mode)
+
+Adding new tickets (20 points)
+
+Sending chat messages (1 point)
+
+Winning a game (100 bonus points)
+
+A floating points counter is always visible in the top-right corner.
+
+**5. Seamless Navigation & Routing**
+Multi-Page Experience: The application is split into a landing page (/) and a dedicated game page (/game), providing a structured user flow.
+
+Clickable Logo: The "Housie Hub" logo always serves as a reliable link back to the main landing page.
+
+Logical Flow: "Play Now" and "Start Playing" buttons intelligently direct users to the game modes, while links on the game page navigate back to the relevant sections on the landing page.
+
+🛠️ _**Technologies Used**_
+Frontend: React, TypeScript, Tailwind CSS
+
+Animations: Advanced CSS (Transitions, Transforms, Keyframes)
+
+State Management: React Hooks (useState, useEffect)
+
+Voice Synthesis: Web Speech API
+
+Data Storage: In-memory storage for chat and game state during a session.
+
+🚀 **How to Run Locally**
+Clone the repository:
+
+Bash
+
+_git clone https://github.com/your-username/housie-hub.git_
+Navigate to the project directory and install dependencies:
+
+Bash
+
+_cd housie-hub
+npm install_
+
+Start the development server:
+
+Bash
+
+_npm start_
+The application will be available at http://localhost:3000
