@@ -39,7 +39,7 @@ Interactive Micro-interactions: Every element is designed to be interactive:
 
 Button Feedback: Buttons provide satisfying press-down and lift effects.
 
-Animated Background: A continuous, subtle ripple effect inspired by 14islands.com provides a dynamic atmosphere.
+Animated Background: A continuous, subtle ripple effect provides a dynamic atmosphere.
 
 Voice Announcements: An immersive feature that announces each drawn number out loud. This can be toggled on or off by the player in all game modes.
 
