@@ -101,9 +101,9 @@ The application will be available at http://localhost:3000
 
 
 NOTE: 
-1) Before running, make sure that you have enabled scruipt execution for npm.
+1) Before running, make sure that you have enabled script execution for npm.
 2) You have set environment variable for cross platform (for windows). To set, follow:
-   In the powershell (in the project root directory):
+   In the powershell (cd to the project's root directory):
    _npm install --save-dev cross-env_
 
    Edit package.json:
