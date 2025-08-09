@@ -87,14 +87,29 @@ Navigate to the project directory and install dependencies:
 
 Bash
 
-_cd housie-hub
+_cd housie-hub_
 
-npm install_
+_npm install_
 
 Start the development server:
 
 Bash
 
-_npm start_
+_npm run dev_
 
 The application will be available at http://localhost:3000
+
+
+NOTE: 
+1) Before running, make sure that you have enabled scruipt execution for npm.
+2) You have set environment variable for cross platform (for windows). To set, follow:
+   In the powershell (in the project root directory):
+   _npm install --save-dev cross-env_
+
+   Edit package.json:
+   **from** _"dev": "NODE_ENV=development tsx server/index.ts",_ **to** _"dev": "cross-env NODE_ENV=development tsx server/index.ts",_
+   
+4) If it still doesn't run then in server/index.ts file
+   **remove** _reusePort = true_ and **set** _host: "127.0.0.1"_
+
+    then go to http://127.0.0.1:5000/
