@@ -111,5 +111,4 @@ NOTE:
    
 4) If it still doesn't run then in server/index.ts file
    **remove** _reusePort = true_ and **set** _host: "127.0.0.1"_
-
-    then go to http://127.0.0.1:5000/
+   **Then try** _npm run dev_ **and go to** http://127.0.0.1:5000/
